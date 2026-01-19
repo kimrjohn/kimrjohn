@@ -1,16 +1,21 @@
-## Hi there 👋
+# Guess Who? — Black History Month
 
-<!--
-**kimrjohn/kimrjohn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Celebrating Excellence** — A fast, educational guessing game featuring African American icons across history, music, sports, science, and culture. Each person card includes a short bio so players learn while they play.
 
-Here are some ideas to get you started:
+## Features
+- Six themed categories with ~100 names each
+- Each person has an image, alt text, and a 1–2 sentence bio
+- Clean line‑by‑line lists stored as JSON/TXT
+- Responsive UI and replay logic
+- Leaderboard and puzzle gallery (planned)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Data structure example
+```json
+{
+  "id": "bhm_001",
+  "name": "Harriet Tubman",
+  "category": "Historical Figures",
+  "image": "harriet-tubman.jpg",
+  "bio": "A conductor on the Underground Railroad who led hundreds to freedom and later advocated for women’s suffrage.",
+  "alt": "Portrait of Harriet Tubman"
+}
